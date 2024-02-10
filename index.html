@@ -4,77 +4,454 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+
+    <!--Importado do google fonts a Fonte Poppins-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Alura Start</title>
   </head>
   <body>
-
- <!--https://site-criativo-alura.vercel.app/-->
-
-    <!--Menus principal Cabeçalho-->
+    <!--Parte do cabeçalho------------------------------------------------->
     <header class="cabecalho">
-      <h1>
-        <img
-          class="logo"
-          src="https://site-criativo-alura.vercel.app/alurastart%20logo.png"
-          alt="Logo Alura"
-        />
-      </h1>
+      <img
+        class="cabecalho-imagem"
+        src="https://site-criativo-alura.vercel.app/alurastart%20logo.png"
+        alt="Logo Alura Strat"
+      />
+
       <ul class="cabecalho-lista">
-        <li class="lista" ><a href="#estudante"> Estudante </a></li>
-        <li class="lista"><a href="#escola"> Escola </a></li>
+        <li class="cabecalho-lista-item"><a href="#escola">Escola</a> </li>
+        <li class="cabecalho-lista-item"><a href="#estudante"> Estudante</a></li>
       </ul>
     </header>
 
-     <!--Texto principal e imagem lateral-->
+    <!--Parte Seção escola------------------------------------------------>
+    <section class="escola">
+      <div class="escola-div-conteudo">
+        <h2 id="escola" class="escola-titulo">Sobre a Escola</h2>
 
-    <section class="texto-principal">
-      <div>
-        <h1 id="escola">Sobre a Escola</h1>
-        <p>
-          A Escola Alura foi fundada em 2010 e tem como objetivo ensinar
-          Pensamento Computacional, através do ensino de Programação.
+        <p class="escola-texto-um">
+          A escola Alura foi fundada em 2010 com o objetivo de ensinar
+          Pensamento Computacional através da Programação.
         </p>
 
-        <p>
-          A turma mais estudiosa e famosa é a Segunda Série A. Nós somos super
-          unidos e a turma favorita por todos os professores e professoras que
-          nos ajudam!
+        <p class="escola-texto-dois">
+          A turma mais famosa é a Segunda Série A. Uma turma diversa e engajada,
+          as vezes, um pouco bagunceira, mas que entrega excelentes resultados!
         </p>
       </div>
 
-      <div>
-        <img
-          class="img-principal"
-          src="https://site-criativo-alura.vercel.app/Formula-bro.png"
-          alt="imagem estudante fazendo calculos"
-        />
-      </div>
-
-
-      <!--Nossos Estudantes imagens-->
+      <img
+        class="escola-imagem"
+        src="https://site-criativo-alura.vercel.app/Formula-bro.png"
+        alt="Professora na sala"
+      />
     </section>
 
-    <div class="quem"><h1>Quem são nossos estudantes?</h1></div>
+    <!--Seção dos estudantes-->
+    <section class="estudante">
+      <h2 class="estudante-titulo">Quem são nossos estudantes?</h2>
+      <div class="estudante-todos">
+        <!--Estudante-->
+        <span id="estudante"></span>
+        <div class="estudante-div">
+          <img
+            class="estudante-imagem"
+            src="https://site-criativo-alura.vercel.app/Marcelo.jpeg"
+            alt="Estudante Marcelo"
+          />
 
-    <section class="estudantes" id="estudante">
-      <div>
-        <img
-          class="img-estudante"
-          src="https://site-criativo-alura.vercel.app/Marcelo.jpeg"
-          alt="estudate Liz"
-        />
-        <p class="nomes">Marcelo Morales</p>
-      </div>
-      <div>
-        <img
-          class="img-estudante"
-          src="https://site-criativo-alura.vercel.app/Marcelo.jpeg"
-          alt="estudate Marcelo"
-        />
-       <p class="nomes">Rafael Morales</p>
-      </div>
+          <h3 class="estudante-nome">Rafael</h3>
+          <a href="https://github.com/Rafaelmorales1982?tab=repositories">
+            <img
+              class="estudante-icone"
+              src="https://site-criativo-alura.vercel.app/github.png"
+              alt="Icone github"
+          /></a>
 
-      
+          <a href="https://www.linkedin.com/in/rafaelmoralesdelima/">
+            <img
+              class="estudante-icone"
+              src="https://site-criativo-alura.vercel.app/linkedin.png"
+              alt="Icone linkedin "
+          /></a>
+
+          <a href="https://www.instagram.com/rafael_morales1982/">
+            <img
+              class="estudante-icone"
+              src="https://site-criativo-alura.vercel.app/instagram.png"
+              alt="Icone instagram"
+          /></a>
+        </div>
+
+        <!--Estudante-->
+
+        <div class="estudante-div">
+          <img
+            class="estudante-imagem"
+            src="https://site-criativo-alura.vercel.app/Marcelo.jpeg"
+            alt="Estudante Marcelo"
+          />
+
+          <h3 class="estudante-nome">Amanda</h3>
+          <a href="https://github.com/Rafaelmorales1982?tab=repositories">
+            <img
+              class="estudante-icone"
+              src="https://site-criativo-alura.vercel.app/github.png"
+              alt="Icone github"
+          /></a>
+
+          <a href="https://www.linkedin.com/in/rafaelmoralesdelima/">
+            <img
+              class="estudante-icone"
+              src="https://site-criativo-alura.vercel.app/linkedin.png"
+              alt="Icone linkedin "
+          /></a>
+
+          <a href="https://www.instagram.com/rafael_morales1982/">
+            <img
+              class="estudante-icone"
+              src="https://site-criativo-alura.vercel.app/instagram.png"
+              alt="Icone instagram"
+          /></a>
+        </div>
+
+        <!--Estudante-->
+
+        <div class="estudante-div">
+          <img
+            class="estudante-imagem"
+            src="https://site-criativo-alura.vercel.app/Marcelo.jpeg"
+            alt="Estudante Marcelo"
+          />
+
+          <h3 class="estudante-nome">Gislaine</h3>
+          <a href="https://github.com/Rafaelmorales1982?tab=repositories">
+            <img
+              class="estudante-icone"
+              src="https://site-criativo-alura.vercel.app/github.png"
+              alt="Icone github"
+          /></a>
+
+          <a href="https://www.linkedin.com/in/rafaelmoralesdelima/">
+            <img
+              class="estudante-icone"
+              src="https://site-criativo-alura.vercel.app/linkedin.png"
+              alt="Icone linkedin "
+          /></a>
+
+          <a href="https://www.instagram.com/rafael_morales1982/">
+            <img
+              class="estudante-icone"
+              src="https://site-criativo-alura.vercel.app/instagram.png"
+              alt="Icone instagram"
+          /></a>
+        </div>
+
+        <span></span>
+        <span></span>
+        <!--Estudante-->
+
+        <div class="estudante-div">
+          <img
+            class="estudante-imagem"
+            src="https://site-criativo-alura.vercel.app/Marcelo.jpeg"
+            alt="Estudante Marcelo"
+          />
+
+          <h3 class="estudante-nome">João Gabriel</h3>
+          <a href="https://github.com/Rafaelmorales1982?tab=repositories">
+            <img
+              class="estudante-icone"
+              src="https://site-criativo-alura.vercel.app/github.png"
+              alt="Icone github"
+          /></a>
+
+          <a href="https://www.linkedin.com/in/rafaelmoralesdelima/">
+            <img
+              class="estudante-icone"
+              src="https://site-criativo-alura.vercel.app/linkedin.png"
+              alt="Icone linkedin "
+          /></a>
+
+          <a href="https://www.instagram.com/rafael_morales1982/">
+            <img
+              class="estudante-icone"
+              src="https://site-criativo-alura.vercel.app/instagram.png"
+              alt="Icone instagram"
+          /></a>
+        </div>
+
+        <!--Estudante-->
+
+        <div class="estudante-div">
+          <img
+            class="estudante-imagem"
+            src="https://site-criativo-alura.vercel.app/Marcelo.jpeg"
+            alt="Estudante Marcelo"
+          />
+
+          <h3 class="estudante-nome">Nicoly</h3>
+          <a href="https://github.com/Rafaelmorales1982?tab=repositories">
+            <img
+              class="estudante-icone"
+              src="https://site-criativo-alura.vercel.app/github.png"
+              alt="Icone github"
+          /></a>
+
+          <a href="https://www.linkedin.com/in/rafaelmoralesdelima/">
+            <img
+              class="estudante-icone"
+              src="https://site-criativo-alura.vercel.app/linkedin.png"
+              alt="Icone linkedin "
+          /></a>
+
+          <a href="https://www.instagram.com/rafael_morales1982/">
+            <img
+              class="estudante-icone"
+              src="https://site-criativo-alura.vercel.app/instagram.png"
+              alt="Icone instagram"
+          /></a>
+        </div>
+
+        <!--Estudante-->
+
+        <div class="estudante-div">
+          <img
+            class="estudante-imagem"
+            src="https://site-criativo-alura.vercel.app/Marcelo.jpeg"
+            alt="Estudante Marcelo"
+          />
+
+          <h3 class="estudante-nome">Orlando</h3>
+          <a href="https://github.com/Rafaelmorales1982?tab=repositories">
+            <img
+              class="estudante-icone"
+              src="https://site-criativo-alura.vercel.app/github.png"
+              alt="Icone github"
+          /></a>
+
+          <a href="https://www.linkedin.com/in/rafaelmoralesdelima/">
+            <img
+              class="estudante-icone"
+              src="https://site-criativo-alura.vercel.app/linkedin.png"
+              alt="Icone linkedin "
+          /></a>
+
+          <a href="https://www.instagram.com/rafael_morales1982/">
+            <img
+              class="estudante-icone"
+              src="https://site-criativo-alura.vercel.app/instagram.png"
+              alt="Icone instagram"
+          /></a>
+        </div>
+
+        <span></span>
+        <span></span>
+        <!--Estudante-->
+
+        <div class="estudante-div">
+          <img
+            class="estudante-imagem"
+            src="https://site-criativo-alura.vercel.app/Marcelo.jpeg"
+            alt="Estudante Marcelo"
+          />
+
+          <h3 class="estudante-nome">Pedro</h3>
+          <a href="https://github.com/Rafaelmorales1982?tab=repositories">
+            <img
+              class="estudante-icone"
+              src="https://site-criativo-alura.vercel.app/github.png"
+              alt="Icone github"
+          /></a>
+
+          <a href="https://www.linkedin.com/in/rafaelmoralesdelima/">
+            <img
+              class="estudante-icone"
+              src="https://site-criativo-alura.vercel.app/linkedin.png"
+              alt="Icone linkedin "
+          /></a>
+
+          <a href="https://www.instagram.com/rafael_morales1982/">
+            <img
+              class="estudante-icone"
+              src="https://site-criativo-alura.vercel.app/instagram.png"
+              alt="Icone instagram"
+          /></a>
+        </div>
+
+        <!--Estudante-->
+
+        <div class="estudante-div">
+          <img
+            class="estudante-imagem"
+            src="https://site-criativo-alura.vercel.app/Marcelo.jpeg"
+            alt="Estudante Marcelo"
+          />
+
+          <h3 class="estudante-nome">Rafael Cuba</h3>
+          <a href="https://github.com/Rafaelmorales1982?tab=repositories">
+            <img
+              class="estudante-icone"
+              src="https://site-criativo-alura.vercel.app/github.png"
+              alt="Icone github"
+          /></a>
+
+          <a href="https://www.linkedin.com/in/rafaelmoralesdelima/">
+            <img
+              class="estudante-icone"
+              src="https://site-criativo-alura.vercel.app/linkedin.png"
+              alt="Icone linkedin "
+          /></a>
+
+          <a href="https://www.instagram.com/rafael_morales1982/">
+            <img
+              class="estudante-icone"
+              src="https://site-criativo-alura.vercel.app/instagram.png"
+              alt="Icone instagram"
+          /></a>
+        </div>
+
+        <!--Estudante-->
+
+        <div class="estudante-div">
+          <img
+            class="estudante-imagem"
+            src="https://site-criativo-alura.vercel.app/Marcelo.jpeg"
+            alt="Estudante Marcelo"
+          />
+
+          <h3 class="estudante-nome">Renan</h3>
+          <a href="https://github.com/Rafaelmorales1982?tab=repositories">
+            <img
+              class="estudante-icone"
+              src="https://site-criativo-alura.vercel.app/github.png"
+              alt="Icone github"
+          /></a>
+
+          <a href="https://www.linkedin.com/in/rafaelmoralesdelima/">
+            <img
+              class="estudante-icone"
+              src="https://site-criativo-alura.vercel.app/linkedin.png"
+              alt="Icone linkedin "
+          /></a>
+
+          <a href="https://www.instagram.com/rafael_morales1982/">
+            <img
+              class="estudante-icone"
+              src="https://site-criativo-alura.vercel.app/instagram.png"
+              alt="Icone instagram"
+          /></a>
+        </div>
+
+        <span></span>
+        <span></span>
+        <!--Estudante-->
+
+        <div class="estudante-div">
+          <img
+            class="estudante-imagem"
+            src="https://site-criativo-alura.vercel.app/Marcelo.jpeg"
+            alt="Estudante Marcelo"
+          />
+
+          <h3 class="estudante-nome">Ruan</h3>
+          <a href="https://github.com/Rafaelmorales1982?tab=repositories">
+            <img
+              class="estudante-icone"
+              src="https://site-criativo-alura.vercel.app/github.png"
+              alt="Icone github"
+          /></a>
+
+          <a href="https://www.linkedin.com/in/rafaelmoralesdelima/">
+            <img
+              class="estudante-icone"
+              src="https://site-criativo-alura.vercel.app/linkedin.png"
+              alt="Icone linkedin "
+          /></a>
+
+          <a href="https://www.instagram.com/rafael_morales1982/">
+            <img
+              class="estudante-icone"
+              src="https://site-criativo-alura.vercel.app/instagram.png"
+              alt="Icone instagram"
+          /></a>
+        </div>
+
+        <!--Estudante-->
+
+        <div class="estudante-div">
+          <img
+            class="estudante-imagem"
+            src="https://site-criativo-alura.vercel.app/Marcelo.jpeg"
+            alt="Estudante Marcelo"
+          />
+
+          <h3 class="estudante-nome">Talia</h3>
+          <a href="https://github.com/Rafaelmorales1982?tab=repositories">
+            <img
+              class="estudante-icone"
+              src="https://site-criativo-alura.vercel.app/github.png"
+              alt="Icone github"
+          /></a>
+
+          <a href="https://www.linkedin.com/in/rafaelmoralesdelima/">
+            <img
+              class="estudante-icone"
+              src="https://site-criativo-alura.vercel.app/linkedin.png"
+              alt="Icone linkedin "
+          /></a>
+
+          <a href="https://www.instagram.com/rafael_morales1982/">
+            <img
+              class="estudante-icone"
+              src="https://site-criativo-alura.vercel.app/instagram.png"
+              alt="Icone instagram"
+          /></a>
+        </div>
+
+        <!--Estudante-->
+
+        <div class="estudante-div">
+          <img
+            class="estudante-imagem"
+            src="https://site-criativo-alura.vercel.app/Marcelo.jpeg"
+            alt="Estudante Marcelo"
+          />
+
+          <h3 class="estudante-nome">Taynara</h3>
+          <a href="https://github.com/Rafaelmorales1982?tab=repositories">
+            <img
+              class="estudante-icone"
+              src="https://site-criativo-alura.vercel.app/github.png"
+              alt="Icone github"
+          /></a>
+
+          <a href="https://www.linkedin.com/in/rafaelmoralesdelima/">
+            <img
+              class="estudante-icone"
+              src="https://site-criativo-alura.vercel.app/linkedin.png"
+              alt="Icone linkedin "
+          /></a>
+
+          <a href="https://www.instagram.com/rafael_morales1982/">
+            <img
+              class="estudante-icone"
+              src="https://site-criativo-alura.vercel.app/instagram.png"
+              alt="Icone instagram"
+          /></a>
+        </div>
+      </div>
     </section>
+
+    <!--Rodapé-->
+    <footer class="rodape">
+      <img class="rodape-imagem" src="https://site-criativo-alura.vercel.app/alurastart%20logo.png" alt="Logo Alura start" />
+    </footer>
   </body>
 </html>
